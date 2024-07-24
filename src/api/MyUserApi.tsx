@@ -62,7 +62,6 @@ export const useCreateMyUser = () => {
 };
 
 type UpdateMyUserRequest = {
-    email: string;
     name: string;
     addrLine1: string;
     city: string;
